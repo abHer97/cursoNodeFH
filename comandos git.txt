@@ -1,0 +1,18 @@
+git init
+//se puede ver como estan los archivos tecleando git status para dar seguimiento
+
+//se puede añadir el .gitignore manualmente escribiendo el nombre de la carpeta seguido 
+//de un slash para ignorar todo o seleccionar un formato de archivo
+
+git add .
+//añade todos los archivos para hacer commit
+
+git commit -m 'mensaje explicando lo que se hizo en el codigo'
+
+git remote add origin urlRepositorio
+//solo la primera vez para agregar el repositorio remoto a nuestra carpeta de codigo
+
+git push -u origin master
+//-u agrega por defecto el origin master, sube la rama principal al repositorio agregado previamente
+
+//añadir usuario y contraseña de github en caso de pedirlo
