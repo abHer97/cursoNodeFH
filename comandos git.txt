@@ -16,3 +16,9 @@ git push -u origin master
 //-u agrega por defecto el origin master, sube la rama principal al repositorio agregado previamente
 
 //añadir usuario y contraseña de github en caso de pedirlo
+
+
+/*
+opcionalmente se puede añadir un README para dejar una explicacion de nuestro codigo
+a quien visite nuestro repositorio
+*/
